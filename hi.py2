@@ -1,5 +1,7 @@
 intOne= int(input("Enter first number:"))
 intTwo=int(input("Enter second number:"))
+bothNeg= input("allow both negatives? (True/False):")=="true"
+
 one_negative=(intOne<0)^(intTwo<0)
 two_negative=(intOne<0) and (intTwo<0)
 
