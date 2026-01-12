@@ -1,0 +1,6 @@
+intOne= int(input("Enter first number:"))
+intTwo=int(input("Enter second number:"))
+one_negative=(intOne<0)^(intTwo<0)
+two_negative=(intOne<0) and (intTwo<0)
+
+print((one_negative and not bothNeg) or (two_negative and bothNeg))
